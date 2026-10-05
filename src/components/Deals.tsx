@@ -95,12 +95,6 @@ const Card = styled.article`
   border: 1px solid #c6cac4;
   border-radius: 2px;
   background: #faf9f4;
-  transition: transform 180ms ease, box-shadow 180ms ease;
-
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 8px 8px 0 #d8d84d;
-  }
 `
 
 const CardTop = styled.div`
@@ -178,10 +172,6 @@ const CardLink = styled.a`
   font-family: 'DM Mono', monospace;
   font-size: 0.7rem;
   text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 `
 
 const Message = styled.p<{ $error?: boolean }>`
